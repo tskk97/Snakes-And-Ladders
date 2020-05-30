@@ -1,0 +1,152 @@
+.textCenter{
+    text-align: center;
+}
+.textRight{
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+}
+.textLeft{
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+.textJustify{
+    text-align: justify;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    border-bottom: 4px solid #d45425;
+    border-right: 4px solid #d45425;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 21px;
+    background-color: #ff7f50;
+    border-radius: 10px;
+}
+.header div:nth-of-type(2){
+    flex-grow: 1;
+}
+.imgSnake{
+    width: 60px;
+}
+.imgLadder{
+    width: 65px;
+}
+.playersInfo{
+    display: flex;
+    flex-direction: row;
+}
+.playersInfo div:nth-of-type(2){
+    flex-grow: 1;
+}
+#playerOneName{
+    color: purple;
+}
+#playerTwoName{
+    color: #e98400;
+}
+button{
+    border: 2px solid #154117;
+    border-radius: 5px;
+    padding: 15px 15px;
+    background-color: #226227;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+button:hover{
+    background-color: #154117;
+}
+label{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+input{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    padding: 1px 5px;
+}
+a{
+    text-decoration: none;
+    background-color: #226227;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 9px;
+    font-size: 15px;
+}
+h1{
+    margin-left: 20px;
+}
+h2, ul{
+    font-family: 'Ubuntu', sans-serif;
+}
+ul{
+    text-align: left !important;
+}
+#playerOneName{
+    font-size: 30px;
+}
+#playerTwoName{
+    font-size: 30px;
+}
+#gameArea{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+#rules{
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+#gameBoard{
+    grid-area: 1 / 2 / span 1 / span 1;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    background-color: #f1f0f0;
+    color: #a0a0a0;
+}
+#gameBoard span{
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+}
+#players{
+    grid-area: 1 / 3 / span 1 / span 1;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#diceValue{
+    font-size: 80px;
+}
+#bonusLadder{
+    color: #3e8ffa;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+#oopsSnake{
+    color: #fa3e3e;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+#playerOneWinner{
+    color: purple;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+#playerTwoWinner{
+    color: #e98400;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
