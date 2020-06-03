@@ -119,7 +119,7 @@ function startGame(){
 }
 function playAgain(){
     // alert("Refreshing...")
-    location.replace('/home/saikiran/projects/masai/sprint-2/index.html')
+    location.replace('index.html')
 }
 
 var id1
